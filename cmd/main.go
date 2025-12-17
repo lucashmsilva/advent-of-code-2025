@@ -7,6 +7,7 @@ import (
 	"github.com.br/lucashmsilva/advent-of-code-2025/solutions/day1"
 	"github.com.br/lucashmsilva/advent-of-code-2025/solutions/day2"
 	"github.com.br/lucashmsilva/advent-of-code-2025/solutions/day3"
+	"github.com.br/lucashmsilva/advent-of-code-2025/solutions/day4"
 )
 
 type Solution interface {
@@ -24,6 +25,7 @@ func main() {
 		1: day1.SolutionForDay{},
 		2: day2.SolutionForDay{},
 		3: day3.SolutionForDay{},
+		4: day4.SolutionForDay{},
 	}
 
 	f := parseFlags()
